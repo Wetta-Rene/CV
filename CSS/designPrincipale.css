@@ -112,7 +112,7 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        font-size: 2em;
+        font-size: 1.4em;
     } 
     .sousElementDroit:nth-child(1){
         flex-basis: 5%;
@@ -252,7 +252,7 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        font-size: 2em;
+        font-size: 1.4em;
     } 
     .sousElementDroit:nth-child(1){
         flex-basis: 5%;
@@ -379,7 +379,7 @@
     
     .titreElementDroit{
         padding-left: 1%;
-        font-size: 2em;
+        font-size: 2.2em;
         border-bottom: 4px solid #F8C128;
     } 
         .titreElementDroit img{
@@ -391,7 +391,7 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        font-size: 2em;
+        font-size: 1.6em;
     } 
     .sousElementDroit:nth-child(1){
         flex-basis: 5%;
@@ -533,7 +533,7 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        font-size: 2em;
+        font-size: 1.6em;
     } 
     .sousElementDroit:nth-child(1){
         flex-basis: 5%;
@@ -595,7 +595,7 @@
         display: flex;
         flex-direction: column;
         width: 30%;
-        justify-content: flex-start;
+        justify-content: space-between;
     }
     
          #photoCV{
@@ -612,7 +612,6 @@
             padding: 5%;
             text-align: center;
             color: #f8c128;
-            font-size: 2em;
         }
         .contenuContact{
             width: 90%;
@@ -674,7 +673,7 @@
     
     .titreElementDroit{
         padding-left: 1%;
-        font-size: 2em;
+        font-size: 2.2em;
         border-bottom: 4px solid #F8C128;
     } 
         .titreElementDroit img{
@@ -686,7 +685,7 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        font-size: 2em;
+        font-size: 1.6em;
     } 
     .sousElementDroit:nth-child(1){
         flex-basis: 5%;
