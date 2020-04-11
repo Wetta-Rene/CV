@@ -1,0 +1,693 @@
+
+   /* CSS appliqué aux petits écrans */
+@font-face{
+    font-family: "Orbitron";
+     src: url("/FONTS/Orbitron.ttf");
+}
+
+
+
+.example {
+  padding: 20px;
+  color: white;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body{
+        width: 98%;
+        margin: auto;
+        font-size: 10px;
+        font-family: "Orbitron";
+        border-top: 20px solid red;
+    }
+    #contenaireTotal{
+        display: flex;
+        flex-direction: column;
+    }
+    #conteneurGauche{
+        background-color: #F8C128; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .elementGauche{
+        width: 100%;
+    }
+    
+         #photoCV{
+            width: 100%;
+            text-align: center;
+            margin-top: 2%;
+        }
+        #photoCV img{
+            width: 80%;
+        }   
+        .titreConteneurgauche{
+            width: 90%;
+            background-color: #393939;
+            padding: 5%;
+            text-align: center;
+            color: #f8c128;
+            font-size: 3em;
+        }
+        .texteContact{
+            width: 98%;
+            margin: auto;
+            color: #393939;
+            font-size: 1.6em;
+            list-style-type: none;
+        }
+            .bolder{
+                font-weight: bolder;
+            }
+
+        #texteApropos{
+            width: 90%;
+            margin: auto;
+            text-align: justify;
+            font-size: 1.6em;
+        }
+        #ImagesLoisir{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    
+    
+    
+    #conteneurDroit{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 2%;
+    }
+    .elementDroit{
+        width: 98%;
+        margin-bottom: 2%;
+    }
+    #TitreNom-Metier{
+        text-align: center;
+        font-size: 4em;
+    }
+        .colorDansleTitre{
+            color: #F8C128;
+        }
+        .texteMetierDansLeTitre{
+            font-size: ;
+        }
+
+    .titreElementDroit{
+        padding-left: 1%;
+        font-size: 2em;
+        border-bottom: 4px solid #F8C128;
+    } 
+        .titreElementDroit img{
+            width: 10%;
+            padding-right: 1%;
+        }    
+
+    .contenaireElementDroit{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 2em;
+    } 
+    .sousElementDroit:nth-child(1){
+        flex-basis: 5%;
+    }
+        .sousElementDroit:nth-child(1) img{
+        width: 100%;
+        }
+    .sousElementDroit:nth-child(2){
+        flex-basis: 88%;
+        text-align: center;
+    }      
+    .sousElementDroit:nth-child(3),.sousElementDroit:nth-child(4){
+        flex-basis: 100%;
+        text-align: center;
+    } 
+    .sousElementDroit:nth-child(4){
+        font-weight: bolder;
+        margin-top: 4%;
+    }   
+    .sousElementDroit:nth-child(5){
+        flex-basis: 100%;
+        text-align: justify;
+        margin-bottom: 4%;
+    }        
+    
+    .elementCR:nth-child(1),.elementCR:nth-child(5){
+        font-weight: bolder;
+        margin-top: 2%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+  body{
+        width: 50%;
+        margin: auto;
+        font-size: 10px;
+        font-family: "Orbitron";
+        border-top: 20px solid green;
+    }
+    #contenaireTotal{
+        display: flex;
+        flex-direction: column;
+    }
+    #conteneurGauche{
+        background-color: #F8C128; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .elementGauche{
+        width: 100%;
+    }
+    
+         #photoCV{
+            width: 100%;
+            text-align: center;
+            margin-top: 2%;
+        }
+        #photoCV img{
+            width: 80%;
+        }   
+        .titreConteneurgauche{
+            width: 90%;
+            background-color: #393939;
+            padding: 5%;
+            text-align: center;
+            color: #f8c128;
+            font-size: 3em;
+        }
+        .texteContact{
+            width: 98%;
+            margin: auto;
+            color: #393939;
+            font-size: 1.6em;
+            list-style-type: none;
+        }
+            .bolder{
+                font-weight: bolder;
+            }
+
+        #texteApropos{
+            width: 90%;
+            margin: auto;
+            text-align: justify;
+            font-size: 1.6em;
+        }
+        #ImagesLoisir{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    
+    
+    
+    #conteneurDroit{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 2%;
+    }
+    .elementDroit{
+        width: 98%;
+        margin-bottom: 2%;
+    }
+    #TitreNom-Metier{
+        text-align: center;
+        font-size: 4em;
+    }
+        .colorDansleTitre{
+            color: #F8C128;
+        }
+        .texteMetierDansLeTitre{
+            font-size: ;
+        }
+
+    .titreElementDroit{
+        padding-left: 1%;
+        font-size: 2em;
+        border-bottom: 4px solid #F8C128;
+    } 
+        .titreElementDroit img{
+            width: 10%;
+            padding-right: 1%;
+        }    
+
+    .contenaireElementDroit{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 2em;
+    } 
+    .sousElementDroit:nth-child(1){
+        flex-basis: 5%;
+    }
+        .sousElementDroit:nth-child(1) img{
+        width: 100%;
+        }
+    .sousElementDroit:nth-child(2){
+        flex-basis: 88%;
+        text-align: center;
+    }      
+    .sousElementDroit:nth-child(3),.sousElementDroit:nth-child(4){
+        flex-basis: 100%;
+        text-align: center;
+    } 
+    .sousElementDroit:nth-child(4){
+        font-weight: bolder;
+        margin-top: 4%;
+    }   
+    .sousElementDroit:nth-child(5){
+        flex-basis: 100%;
+        text-align: justify;
+        margin-bottom: 4%;
+    }        
+    
+    .elementCR:nth-child(1),.elementCR:nth-child(5){
+        font-weight: bolder;
+        margin-top: 2%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body{
+        width: 50%;
+        margin: auto;
+        font-size: 10px;
+        font-family: "Orbitron";
+        border-top: 20px solid blue;
+    }
+    #contenaireTotal{
+        display: flex;
+        flex-direction: column;
+    }
+    #conteneurGauche{
+        background-color: #F8C128; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .elementGauche{
+        width: 100%;
+    }
+    
+         #photoCV{
+            width: 100%;
+            text-align: center;
+            margin-top: 2%;
+        }
+        #photoCV img{
+            width: 80%;
+        }   
+        .titreConteneurgauche{
+            width: 90%;
+            background-color: #393939;
+            padding: 5%;
+            text-align: center;
+            color: #f8c128;
+            font-size: 3em;
+        }
+        .texteContact{
+            width: 98%;
+            margin: auto;
+            color: #393939;
+            font-size: 1.6em;
+            list-style-type: none;
+        }
+            .bolder{
+                font-weight: bolder;
+            }
+
+        #texteApropos{
+            width: 90%;
+            margin: auto;
+            text-align: justify;
+            font-size: 1.6em;
+        }
+        #ImagesLoisir{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    
+    
+    
+    #conteneurDroit{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 2%;
+    }
+    .elementDroit{
+        width: 98%;
+        margin-bottom: 2%;
+    }
+    #TitreNom-Metier{
+        text-align: center;
+        font-size: 4em;
+    }
+        .colorDansleTitre{
+            color: #F8C128;
+        }
+        .texteMetierDansLeTitre{
+            font-size: ;
+        }
+
+    .titreElementDroit{
+        padding-left: 1%;
+        font-size: 2em;
+        border-bottom: 4px solid #F8C128;
+    } 
+        .titreElementDroit img{
+            width: 10%;
+            padding-right: 1%;
+        }    
+
+    .contenaireElementDroit{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 2em;
+    } 
+    .sousElementDroit:nth-child(1){
+        flex-basis: 5%;
+    }
+        .sousElementDroit:nth-child(1) img{
+        width: 100%;
+        }
+    .sousElementDroit:nth-child(2){
+        flex-basis: 88%;
+        text-align: center;
+    }      
+    .sousElementDroit:nth-child(3),.sousElementDroit:nth-child(4){
+        flex-basis: 100%;
+        text-align: center;
+    } 
+    .sousElementDroit:nth-child(4){
+        font-weight: bolder;
+        margin-top: 4%;
+    }   
+    .sousElementDroit:nth-child(5){
+        flex-basis: 100%;
+        text-align: justify;
+        margin-bottom: 4%;
+    }        
+    
+    .elementCR:nth-child(1),.elementCR:nth-child(5){
+        font-weight: bolder;
+        margin-top: 2%;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body{
+        width: 80%;
+        margin: auto;
+        font-size: 10px;
+        font-family: "Orbitron";
+        border-top: 20px solid orange;
+    }
+    #contenaireTotal{
+        display: flex;
+        flex-direction: column;
+    }
+    #conteneurGauche{
+        background-color: #F8C128; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .elementGauche{
+        width: 100%;
+    }
+    
+         #photoCV{
+            width: 100%;
+            text-align: center;
+            margin-top: 2%;
+        }
+        #photoCV img{
+            width: 80%;
+        }   
+        .titreConteneurgauche{
+            width: 90%;
+            background-color: #393939;
+            padding: 5%;
+            text-align: center;
+            color: #f8c128;
+            font-size: 3em;
+        }
+        .texteContact{
+            width: 98%;
+            margin: auto;
+            color: #393939;
+            font-size: 1.6em;
+            list-style-type: none;
+        }
+            .bolder{
+                font-weight: bolder;
+            }
+
+        #texteApropos{
+            width: 90%;
+            margin: auto;
+            text-align: justify;
+            font-size: 1.6em;
+        }
+        #ImagesLoisir{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    
+    
+    
+    #conteneurDroit{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 2%;
+    }
+    .elementDroit{
+        width: 98%;
+        margin-bottom: 2%;
+    }
+    #TitreNom-Metier{
+        text-align: center;
+        font-size: 4em;
+    }
+        .colorDansleTitre{
+            color: #F8C128;
+        }
+        .texteMetierDansLeTitre{
+            font-size: ;
+        }
+
+    .titreElementDroit{
+        padding-left: 1%;
+        font-size: 2em;
+        border-bottom: 4px solid #F8C128;
+    } 
+        .titreElementDroit img{
+            width: 10%;
+            padding-right: 1%;
+        }    
+
+    .contenaireElementDroit{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 2em;
+    } 
+    .sousElementDroit:nth-child(1){
+        flex-basis: 5%;
+    }
+        .sousElementDroit:nth-child(1) img{
+        width: 100%;
+        }
+    .sousElementDroit:nth-child(2){
+        flex-basis: 88%;
+        text-align: center;
+    }      
+    .sousElementDroit:nth-child(3),.sousElementDroit:nth-child(4){
+        flex-basis: 100%;
+        text-align: center;
+    } 
+    .sousElementDroit:nth-child(4){
+        font-weight: bolder;
+        margin-top: 4%;
+    }   
+    .sousElementDroit:nth-child(5){
+        flex-basis: 100%;
+        text-align: justify;
+        margin-bottom: 4%;
+    }        
+    
+    .elementCR:nth-child(1),.elementCR:nth-child(5){
+        font-weight: bolder;
+        margin-top: 2%;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+  body{
+        width: 70%;
+        margin: auto;
+        font-size: 10px;
+        font-family: "Orbitron";
+        border-top: 20px solid pink;
+    }
+    #contenaireTotal{
+        display: flex;
+        flex-direction: row;
+    }
+    #conteneurGauche{
+        background-color: #F8C128; 
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        justify-content: flex-start;
+    }
+    
+         #photoCV{
+            width: 100%;
+            text-align: center;
+            margin-top: 2%;
+        }
+        #photoCV img{
+            width: 80%;
+        }   
+        .titreConteneurgauche{
+            width: 90%;
+            background-color: #393939;
+            padding: 5%;
+            text-align: center;
+            color: #f8c128;
+            font-size: 3em;
+        }
+        .texteContact{
+
+            color: #393939;
+            font-size: 1.5em;
+            list-style-type: none;
+        }
+            .bolder{
+                font-weight: bolder;
+            }
+
+        #texteApropos{
+            width: 96%;
+            margin: auto;
+            text-align: justify;
+            font-size: 1.5em;
+        }
+        #ImagesLoisir{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    
+    
+    
+    #conteneurDroit{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 2%;
+        width: 58%;
+    }
+    .elementDroit{
+        width: 98%;
+        margin-bottom: 2%;
+    }
+    #TitreNom-Metier{
+        text-align: center;
+        font-size: 5em;
+    }
+        .colorDansleTitre{
+            color: #F8C128;
+        }
+        .texteMetierDansLeTitre{
+            font-size: ;
+        }
+
+    .titreElementDroit{
+        padding-left: 1%;
+        font-size: 2em;
+        border-bottom: 4px solid #F8C128;
+    } 
+        .titreElementDroit img{
+            width: 10%;
+            padding-right: 1%;
+        }    
+
+    .contenaireElementDroit{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 2em;
+    } 
+    .sousElementDroit:nth-child(1){
+        flex-basis: 5%;
+    }
+        .sousElementDroit:nth-child(1) img{
+        width: 100%;
+        }
+    .sousElementDroit:nth-child(2){
+        flex-basis: 55%;
+        text-align: center;
+        
+    }      
+    .sousElementDroit:nth-child(3){
+        flex-basis: 40%;
+        text-align: center;   
+    }
+    
+    .sousElementDroit:nth-child(4){
+        flex-basis: 100%;
+        text-align: center;
+        font-weight: bolder;
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }   
+    .sousElementDroit:nth-child(5){
+        flex-basis: 100%;
+        text-align: justify;
+        margin-bottom: 4%;
+    }        
+    
+    
+    .contenaireElementDroit{
+        display: flex;
+        padding-left: 10%;
+    }
+    .elementCR:nth-child(1),.elementCR:nth-child(5){
+        font-weight: bolder;
+        margin-top: 2%;
+    }
+}
+
+
+
+
+
+
+
+    
+
+
+
+
+<<<<<<< HEAD
+=======
+   
+>>>>>>> b298f31ee419b420fd7f32756a15af6b22d3d3e7
