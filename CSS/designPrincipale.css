@@ -5,12 +5,6 @@
      src: url("/FONTS/Orbitron.ttf");
 }
 
-
-
-.example {
-  padding: 20px;
-  color: white;
-}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     body{
@@ -19,6 +13,7 @@
         font-size: 10px;
         font-family: "Orbitron";
         border-top: 20px solid red;
+        margin-top: 20px;
     }
     #contenaireTotal{
         display: flex;
@@ -50,12 +45,11 @@
             color: #f8c128;
             font-size: 3em;
         }
-        .texteContact{
-            width: 98%;
+        .contenuContact{
+            width: 90%;
             margin: auto;
             color: #393939;
-            font-size: 1.6em;
-            list-style-type: none;
+            font-size: 1.8em;
         }
             .bolder{
                 font-weight: bolder;
@@ -85,17 +79,25 @@
         width: 98%;
         margin-bottom: 2%;
     }
-    #TitreNom-Metier{
-        text-align: center;
-        font-size: 4em;
+    #TitreNomMetier{
+       text-align: center;
     }
-        .colorDansleTitre{
-            color: #F8C128;
+        .nom_prenom{
+        font-size: 5em;
         }
-        .texteMetierDansLeTitre{
-            font-size: ;
+        .colorNom{
+        color: #F8C128;
+        }
+        .metier{
+        font-size: 2em;
+        }
+        .souligneMetier{
+        text-decoration: underline;
+        text-decoration-color: #F8C128;  
         }
 
+    
+    
     .titreElementDroit{
         padding-left: 1%;
         font-size: 2em;
@@ -151,6 +153,7 @@
         font-size: 10px;
         font-family: "Orbitron";
         border-top: 20px solid green;
+        margin-top: 20px;
     }
     #contenaireTotal{
         display: flex;
@@ -182,12 +185,11 @@
             color: #f8c128;
             font-size: 3em;
         }
-        .texteContact{
-            width: 98%;
+        .contenuContact{
+            width: 90%;
             margin: auto;
             color: #393939;
-            font-size: 1.6em;
-            list-style-type: none;
+            font-size: 2em;
         }
             .bolder{
                 font-weight: bolder;
@@ -217,17 +219,25 @@
         width: 98%;
         margin-bottom: 2%;
     }
-    #TitreNom-Metier{
-        text-align: center;
-        font-size: 4em;
+    #TitreNomMetier{
+       text-align: center;
     }
-        .colorDansleTitre{
-            color: #F8C128;
+        .nom_prenom{
+        font-size: 5em;
         }
-        .texteMetierDansLeTitre{
-            font-size: ;
+        .colorNom{
+        color: #F8C128;
+        }
+        .metier{
+        font-size: 2em;
+        }
+        .souligneMetier{
+        text-decoration: underline;
+        text-decoration-color: #F8C128;  
         }
 
+    
+    
     .titreElementDroit{
         padding-left: 1%;
         font-size: 2em;
@@ -282,6 +292,7 @@
         font-size: 10px;
         font-family: "Orbitron";
         border-top: 20px solid blue;
+        margin-top: 20px;
     }
     #contenaireTotal{
         display: flex;
@@ -313,12 +324,11 @@
             color: #f8c128;
             font-size: 3em;
         }
-        .texteContact{
-            width: 98%;
+        .contenuContact{
+            width: 90%;
             margin: auto;
             color: #393939;
-            font-size: 1.6em;
-            list-style-type: none;
+            font-size: 1.8em;
         }
             .bolder{
                 font-weight: bolder;
@@ -348,17 +358,25 @@
         width: 98%;
         margin-bottom: 2%;
     }
-    #TitreNom-Metier{
-        text-align: center;
-        font-size: 4em;
+     #TitreNomMetier{
+       text-align: center;
     }
-        .colorDansleTitre{
-            color: #F8C128;
+        .nom_prenom{
+        font-size: 5em;
         }
-        .texteMetierDansLeTitre{
-            font-size: ;
+        .colorNom{
+        color: #F8C128;
+        }
+        .metier{
+        font-size: 2em;
+        }
+        .souligneMetier{
+        text-decoration: underline;
+        text-decoration-color: #F8C128;  
         }
 
+    
+    
     .titreElementDroit{
         padding-left: 1%;
         font-size: 2em;
@@ -407,25 +425,24 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  body{
-        width: 80%;
+ body{
+        width: 70%;
         margin: auto;
         font-size: 10px;
         font-family: "Orbitron";
         border-top: 20px solid orange;
+        margin-top: 20px;
     }
     #contenaireTotal{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
     #conteneurGauche{
         background-color: #F8C128; 
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
-    }
-    .elementGauche{
-        width: 100%;
+        width: 35%;
+        justify-content: flex-start;
     }
     
          #photoCV{
@@ -442,14 +459,13 @@
             padding: 5%;
             text-align: center;
             color: #f8c128;
-            font-size: 3em;
+            font-size: 2em;
         }
-        .texteContact{
-            width: 98%;
+        .contenuContact{
+            width: 90%;
             margin: auto;
             color: #393939;
-            font-size: 1.6em;
-            list-style-type: none;
+            font-size: 1.4em;
         }
             .bolder{
                 font-weight: bolder;
@@ -459,7 +475,7 @@
             width: 90%;
             margin: auto;
             text-align: justify;
-            font-size: 1.6em;
+            font-size: 1.5em;
         }
         #ImagesLoisir{
             display: flex;
@@ -474,22 +490,35 @@
         flex-direction: column;
         justify-content: space-around;
         padding-left: 2%;
+        width: 58%;
     }
     .elementDroit{
         width: 98%;
         margin-bottom: 2%;
     }
-    #TitreNom-Metier{
+    .TitreNom-Metier{
         text-align: center;
-        font-size: 4em;
+        border: 1px solid black;
     }
-        .colorDansleTitre{
-            color: #F8C128;
+    #TitreNomMetier{
+       text-align: center;
+    }
+        .nom_prenom{
+        font-size: 5em;
         }
-        .texteMetierDansLeTitre{
-            font-size: ;
+        .colorNom{
+        color: #F8C128;
+        }
+        .metier{
+        font-size: 2em;
+        }
+        .souligneMetier{
+        text-decoration: underline;
+        text-decoration-color: #F8C128;  
         }
 
+    
+    
     .titreElementDroit{
         padding-left: 1%;
         font-size: 2em;
@@ -513,16 +542,21 @@
         width: 100%;
         }
     .sousElementDroit:nth-child(2){
-        flex-basis: 88%;
+        flex-basis: 55%;
         text-align: center;
+        
     }      
-    .sousElementDroit:nth-child(3),.sousElementDroit:nth-child(4){
+    .sousElementDroit:nth-child(3){
+        flex-basis: 40%;
+        text-align: center;   
+    }
+    
+    .sousElementDroit:nth-child(4){
         flex-basis: 100%;
         text-align: center;
-    } 
-    .sousElementDroit:nth-child(4){
         font-weight: bolder;
-        margin-top: 4%;
+        margin-top: 2%;
+        margin-bottom: 4%;
     }   
     .sousElementDroit:nth-child(5){
         flex-basis: 100%;
@@ -530,6 +564,11 @@
         margin-bottom: 4%;
     }        
     
+    
+    .contenaireElementDroit{
+        display: flex;
+        padding-left: 10%;
+    }
     .elementCR:nth-child(1),.elementCR:nth-child(5){
         font-weight: bolder;
         margin-top: 2%;
@@ -545,6 +584,7 @@
         font-size: 10px;
         font-family: "Orbitron";
         border-top: 20px solid pink;
+        margin-top: 20px;
     }
     #contenaireTotal{
         display: flex;
@@ -572,20 +612,20 @@
             padding: 5%;
             text-align: center;
             color: #f8c128;
-            font-size: 3em;
+            font-size: 2em;
         }
-        .texteContact{
-
+        .contenuContact{
+            width: 90%;
+            margin: auto;
             color: #393939;
-            font-size: 1.5em;
-            list-style-type: none;
+            font-size: 1.4em;
         }
             .bolder{
                 font-weight: bolder;
             }
 
         #texteApropos{
-            width: 96%;
+            width: 90%;
             margin: auto;
             text-align: justify;
             font-size: 1.5em;
@@ -609,17 +649,29 @@
         width: 98%;
         margin-bottom: 2%;
     }
-    #TitreNom-Metier{
+    .TitreNom-Metier{
         text-align: center;
-        font-size: 5em;
+        border: 1px solid black;
     }
-        .colorDansleTitre{
-            color: #F8C128;
+    #TitreNomMetier{
+       text-align: center;
+    }
+        .nom_prenom{
+        font-size: 5em;
         }
-        .texteMetierDansLeTitre{
-            font-size: ;
+        .colorNom{
+        color: #F8C128;
+        }
+        .metier{
+        font-size: 2em;
+        }
+        .souligneMetier{
+        text-decoration: underline;
+        text-decoration-color: #F8C128;  
         }
 
+    
+    
     .titreElementDroit{
         padding-left: 1%;
         font-size: 2em;
@@ -675,19 +727,3 @@
         margin-top: 2%;
     }
 }
-
-
-
-
-
-
-
-    
-
-
-
-
-<<<<<<< HEAD
-=======
-   
->>>>>>> b298f31ee419b420fd7f32756a15af6b22d3d3e7
