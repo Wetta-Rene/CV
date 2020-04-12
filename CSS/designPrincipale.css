@@ -37,7 +37,7 @@
         #photoCV img{
             width: 80%;
         }   
-        .titreConteneurgauche{
+        h2{
             width: 90%;
             background-color: #393939;
             padding: 5%;
@@ -82,13 +82,13 @@
     #TitreNomMetier{
        text-align: center;
     }
-        .nom_prenom{
+        h1{
         font-size: 5em;
         }
         .colorNom{
         color: #F8C128;
         }
-        .metier{
+        h3{
         font-size: 2em;
         }
         .souligneMetier{
@@ -104,7 +104,7 @@
         border-bottom: 4px solid #F8C128;
     } 
         .titreElementDroit img{
-            width: 10%;
+            width: 8%;
             padding-right: 1%;
         }    
 
@@ -177,7 +177,7 @@
         #photoCV img{
             width: 80%;
         }   
-        .titreConteneurgauche{
+        h2{
             width: 90%;
             background-color: #393939;
             padding: 5%;
@@ -222,14 +222,14 @@
     #TitreNomMetier{
        text-align: center;
     }
-        .nom_prenom{
-        font-size: 5em;
+        h1{
+        font-size: 3em;
         }
         .colorNom{
         color: #F8C128;
         }
-        .metier{
-        font-size: 2em;
+        h3{
+        font-size: 1.5em;
         }
         .souligneMetier{
         text-decoration: underline;
@@ -244,7 +244,7 @@
         border-bottom: 4px solid #F8C128;
     } 
         .titreElementDroit img{
-            width: 10%;
+            width: 8%;
             padding-right: 1%;
         }    
 
@@ -316,7 +316,7 @@
         #photoCV img{
             width: 80%;
         }   
-        .titreConteneurgauche{
+        h2{
             width: 90%;
             background-color: #393939;
             padding: 5%;
@@ -361,13 +361,13 @@
      #TitreNomMetier{
        text-align: center;
     }
-        .nom_prenom{
-        font-size: 5em;
+        h1{
+        font-size: 4em;
         }
         .colorNom{
         color: #F8C128;
         }
-        .metier{
+        h3{
         font-size: 2em;
         }
         .souligneMetier{
@@ -383,7 +383,7 @@
         border-bottom: 4px solid #F8C128;
     } 
         .titreElementDroit img{
-            width: 10%;
+            width: 8%;
             padding-right: 1%;
         }    
 
@@ -441,8 +441,8 @@
         background-color: #F8C128; 
         display: flex;
         flex-direction: column;
-        width: 35%;
-        justify-content: flex-start;
+        flex-basis: 40%;
+        justify-content: space-between;
     }
     
          #photoCV{
@@ -453,7 +453,7 @@
         #photoCV img{
             width: 80%;
         }   
-        .titreConteneurgauche{
+        h2{
             width: 90%;
             background-color: #393939;
             padding: 5%;
@@ -503,13 +503,13 @@
     #TitreNomMetier{
        text-align: center;
     }
-        .nom_prenom{
+        h1{
         font-size: 5em;
         }
         .colorNom{
         color: #F8C128;
         }
-        .metier{
+        h3{
         font-size: 2em;
         }
         .souligneMetier{
@@ -525,7 +525,7 @@
         border-bottom: 4px solid #F8C128;
     } 
         .titreElementDroit img{
-            width: 10%;
+            width: 8%;
             padding-right: 1%;
         }    
 
@@ -606,7 +606,7 @@
         #photoCV img{
             width: 80%;
         }   
-        .titreConteneurgauche{
+        h2{
             width: 90%;
             background-color: #393939;
             padding: 5%;
@@ -655,14 +655,14 @@
     #TitreNomMetier{
        text-align: center;
     }
-        .nom_prenom{
+        h1{
         font-size: 5em;
         }
         .colorNom{
         color: #F8C128;
         }
-        .metier{
-        font-size: 2em;
+        h3{
+        font-size: 2.5em;
         }
         .souligneMetier{
         text-decoration: underline;
@@ -677,7 +677,7 @@
         border-bottom: 4px solid #F8C128;
     } 
         .titreElementDroit img{
-            width: 10%;
+            width: 8%;
             padding-right: 1%;
         }    
 
