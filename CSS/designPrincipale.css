@@ -77,7 +77,7 @@
     }
     .elementDroit{
         width: 98%;
-        margin-bottom: 2%;
+        margin-bottom: 4%;
     }
     #TitreNomMetierDroit{
         display: none;
@@ -123,13 +123,18 @@
     .sousElementDroit:nth-child(2){
         flex-basis: 88%;
         text-align: center;
-    }      
-    .sousElementDroit:nth-child(3),.sousElementDroit:nth-child(4){
+    }     
+    .sousElementDroit:nth-child(3){
+        font-weight: bolder;
         flex-basis: 100%;
         text-align: center;
     } 
+    .nonBolder{
+        font-weight: normal;
+    }
     .sousElementDroit:nth-child(4){
-        font-weight: bolder;
+        flex-basis: 90%;
+        padding-left: 10%;
         margin-top: 4%;
     }   
     .sousElementDroit:nth-child(5){
@@ -137,7 +142,15 @@
         text-align: justify;
         margin-bottom: 4%;
     }        
-    
+    .elementDroit:nth-child(10){
+        display: flex;
+        flex-direction: column;
+    }
+    .elementCR{
+        display: flex;
+        flex-basis: 80%;
+        padding-left: 20%;
+    }
     .elementCR:nth-child(1),.elementCR:nth-child(5){
         font-weight: bolder;
         margin-top: 2%;
@@ -147,12 +160,15 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   body{
-        width: 70%;
+        width: 80%;
         margin: auto;
     }
  #photoCV img{
         width: 50%;
     } 
+  .sousElementDroit:nth-child(1) img{
+    width: 80%;
+}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -171,9 +187,8 @@
         width: 80%;
         }
     .sousElementDroit:nth-child(2){
-        flex-basis: 55%;
+        flex-basis: 40%;
         text-align: center;
-        
     }      
     .sousElementDroit:nth-child(3){
         flex-basis: 40%;
@@ -182,8 +197,6 @@
     
     .sousElementDroit:nth-child(4){
         flex-basis: 100%;
-        text-align: center;
-        font-weight: bolder;
         margin-top: 2%;
         margin-bottom: 4%;
     }   
@@ -192,6 +205,45 @@
         text-align: justify;
         margin-bottom: 4%;
     }
+    .elementDroit:nth-child(10){
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .elementCR{
+        display: flex;
+        flex-basis: 50%;
+        margin-left: -20%;
+        font-size: 0.9em;
+    }
+    .elementCR:nth-child(1),.elementCR:nth-child(5){
+        font-weight: bolder;
+        margin-top: 2%;
+    }
+     .elementCR:nth-child(1){
+         order: 1;
+    }   
+    .elementCR:nth-child(2){
+         order: 3;
+    }   
+     .elementCR:nth-child(3){
+         order: 5;
+    }     
+     .elementCR:nth-child(4){
+         order: 7;
+    }   
+       .elementCR:nth-child(5){
+         order: 2;
+    }     
+       .elementCR:nth-child(6){
+         order: 4;
+    }     
+     .elementCR:nth-child(7){
+         order: 6;
+    } 
+     .elementCR:nth-child(8){
+         order: 8;
+    }   
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -242,11 +294,15 @@
         flex-basis: 10%;
         text-align: right;
     }
+   .sousElementDroit:nth-child(2){
+        flex-basis: 30%;
+        font-size: 0.8em;
+    }
         .sousElementDroit:nth-child(1) img{
         width: 30%;
         }
     .sousElementDroit:nth-child(2){
-        flex-basis: 50%;
+        flex-basis: 30%;
     }
 } 
 
@@ -254,7 +310,7 @@
 @media only screen and (min-width: 1200px) {
 
   body{
-        width: 80%;
+        width: 98%;
         margin: auto;
         font-size: 10px;
         font-family: "Orbitron";
@@ -298,24 +354,22 @@
     } 
     .sousElementDroit:nth-child(1){
         flex-basis: 5%;
+        margin-right: 2%;
     }
         .sousElementDroit:nth-child(1) img{
-        width: 80%;
+        width: 50%;
         }
     .sousElementDroit:nth-child(2){
-        flex-basis: 55%;
-        text-align: center;
-        
+        flex-basis: 30%;
+        font-size: 0.8em;
+        text-align: left;
     }      
-    .sousElementDroit:nth-child(3){
-        flex-basis: 40%;
-        text-align: center;   
-    }
-    
+      .sousElementDroit:nth-child(3){
+        text-align: left;
+    }   
     .sousElementDroit:nth-child(4){
         flex-basis: 100%;
-        text-align: center;
-        font-weight: bolder;
+        padding-left: 37%;
         margin-top: 2%;
         margin-bottom: 4%;
     }   
@@ -327,3 +381,4 @@
     
     
 
+}
