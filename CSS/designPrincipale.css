@@ -4,6 +4,7 @@
         margin: auto;
         font-size: 10px;
         font-family: "Orbitron";
+        text-decoration: none;
     }
     #contenaireTotal{
         display: flex;
