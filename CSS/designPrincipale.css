@@ -14,9 +14,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-    }
-    .elementGauche{
-        width: 100%;
+
     }
     
          #photoCV{
@@ -26,7 +24,18 @@
         }
         #photoCV img{
             width: 60%;
-        }   
+        } 
+         #TitreNomMetierGauche{
+           width: 98%;
+           margin: auto;
+           text-align: center;
+        }
+        #TitreNomMetierGauche h1{
+           font-size: 4em;
+        }
+        #TitreNomMetierGauche h3{
+          font-size: 2em;
+        }
         h2{
             width: 90%;
             background-color: #393939;
@@ -56,18 +65,24 @@
             flex-direction: row;
             justify-content: space-around;
         }
+    .elementGauche:nth-child(2){
+        margin-bottom: 2%;
+    }
     #conteneurDroit{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         padding-left: 2%;
+        margin-top: 8%;
     }
     .elementDroit{
         width: 98%;
         margin-bottom: 2%;
     }
-    #TitreNomMetier{
-       text-align: center;
+    #TitreNomMetierDroit{
+        display: none;
+        padding-left: 10%;
+        margin-bottom: 8%;
     }
         h1{
         font-size: 5em;
@@ -196,6 +211,9 @@
         width: 35%;
         justify-content: space-between;
     }
+    #TitreNomMetierGauche{
+        display: none;
+    }
     .contenuContact{
         font-size: 1.5em;
     }
@@ -208,6 +226,10 @@
         justify-content: space-around;
         padding-left: 2%;
         width: 58%;
+        margin-top: 0;
+    }
+    #TitreNomMetierDroit{
+        display: inherit;
     }
     .titreElementDroit img{
          width: 8%;
@@ -251,13 +273,13 @@
     #photoCV img{
             width: 80%;
         }   
-
     #conteneurDroit{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         padding-left: 2%;
         width: 58%;
+        margin-top: 0;
     }
     .elementDroit{
         width: 98%;
