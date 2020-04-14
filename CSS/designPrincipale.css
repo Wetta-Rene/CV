@@ -10,7 +10,7 @@
         flex-direction: column;
     }
     #conteneurGauche{
-        background-color: #F8C128; 
+        background-color: #FACA33; 
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -41,7 +41,7 @@
             background-color: #393939;
             padding: 5%;
             text-align: center;
-            color: #f8c128;
+            color: #FACA33;
             font-size: 2em;
         }
         .contenuContact{
@@ -88,20 +88,20 @@
         font-size: 5em;
         }
         .colorNom{
-        color: #F8C128;
+        color: #FACA33;
         }
         h3{
         font-size: 2em;
         }
         .souligneMetier{
         text-decoration: underline;
-        text-decoration-color: #F8C128;  
+        text-decoration-color: #FACA33;  
         }
     
     .titreElementDroit{
         padding-left: 1%;
         font-size: 2em;
-        border-bottom: 4px solid #F8C128;
+        border-bottom: 4px solid #FACA33;
     } 
         .titreElementDroit img{
             width: 8%;
@@ -277,7 +277,7 @@
         flex-direction: column;
         justify-content: space-around;
         padding-left: 2%;
-        width: 58%;
+        width: 68%;
         margin-top: 0;
     }
     #TitreNomMetierDroit{
@@ -314,13 +314,14 @@
         margin: auto;
         font-size: 10px;
         font-family: "Orbitron";
+      border: 1px solid black;
     }
     #contenaireTotal{
         display: flex;
         flex-direction: row;
     }
     #conteneurGauche{
-        background-color: #F8C128; 
+        background-color: #FACA33; 
         display: flex;
         flex-direction: column;
         width: 30%;
@@ -334,7 +335,7 @@
         flex-direction: column;
         justify-content: space-around;
         padding-left: 2%;
-        width: 58%;
+        width: 68%;
         margin-top: 0;
     }
     .elementDroit{
