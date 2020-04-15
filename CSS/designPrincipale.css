@@ -16,7 +16,6 @@
         justify-content: space-around;
 
     }
-    
          #photoCV{
             width: 100%;
             text-align: center;
@@ -59,6 +58,7 @@
             margin: auto;
             text-align: justify;
             font-size: 1.6em;
+            line-height: 1.8;
         }
         #ImagesLoisir{
             display: flex;
@@ -118,7 +118,7 @@
         flex-basis: 5%;
     }
         .sousElementDroit:nth-child(1) img{
-        width: 100%;
+        width: 80%;
         }
     .sousElementDroit:nth-child(2){
         flex-basis: 88%;
@@ -175,28 +175,39 @@
 
 @media only screen and (min-width: 768px) {
  body{
-        width: 70%;
+        width: 90%;
         margin: auto;
-        font-size: 10px;
-        font-family: "Orbitron";
+        margin-top: 5%;
     }
+ #photoCV img{
+        width: 40%;
+    } 
+.titreElementDroit{
+    font-size: 2.5em;
+} 
+ .titreElementDroit img{
+        width: 6%;
+    }    
+
 .sousElementDroit:nth-child(1){
         flex-basis: 5%;
+        margin-right: 2%;
     }
         .sousElementDroit:nth-child(1) img{
-        width: 80%;
+        width: 40%;
         }
     .sousElementDroit:nth-child(2){
-        flex-basis: 40%;
-        text-align: center;
+        flex-basis: 30%;
+        font-size: 0.8em;
+        text-align: left;
     }      
-    .sousElementDroit:nth-child(3){
-        flex-basis: 40%;
-        text-align: center;   
-    }
-    
+      .sousElementDroit:nth-child(3){
+        flex-basis: 30%;
+        text-align: left;
+    }   
     .sousElementDroit:nth-child(4){
         flex-basis: 100%;
+        padding-left: 37%;
         margin-top: 2%;
         margin-bottom: 4%;
     }   
@@ -204,7 +215,7 @@
         flex-basis: 100%;
         text-align: justify;
         margin-bottom: 4%;
-    }
+    }    
     .elementDroit:nth-child(10){
         display: flex;
         flex-direction: row;
@@ -263,6 +274,9 @@
         width: 35%;
         justify-content: space-between;
     }
+    #photoCV img{
+            width: 70%;
+        }
     #TitreNomMetierGauche{
         display: none;
     }
@@ -284,26 +298,13 @@
         display: inherit;
     }
     .titreElementDroit img{
-         width: 8%;
-        padding-right: 4%;
+         width: 6%;
      } 
     .contenaireElementDroit{
         font-size: 1.6em;
     } 
-    .sousElementDroit:nth-child(1){
-        flex-basis: 10%;
-        text-align: right;
-    }
-   .sousElementDroit:nth-child(2){
-        flex-basis: 30%;
-        font-size: 0.8em;
-    }
-        .sousElementDroit:nth-child(1) img{
-        width: 30%;
-        }
-    .sousElementDroit:nth-child(2){
-        flex-basis: 30%;
-    }
+    
+
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -314,7 +315,6 @@
         margin: auto;
         font-size: 10px;
         font-family: "Orbitron";
-      border: 1px solid black;
     }
     #contenaireTotal{
         display: flex;
@@ -342,9 +342,8 @@
         width: 98%;
         margin-bottom: 2%;
     }
-    .titreElementDroit img{
-         width: 8%;
-        padding-right: 4%;
+    .titreElementDroit{
+        font-size: 3em;
      }    
 
     .contenaireElementDroit{
@@ -353,33 +352,4 @@
         flex-wrap: wrap;
         font-size: 1.6em;
     } 
-    .sousElementDroit:nth-child(1){
-        flex-basis: 5%;
-        margin-right: 2%;
-    }
-        .sousElementDroit:nth-child(1) img{
-        width: 50%;
-        }
-    .sousElementDroit:nth-child(2){
-        flex-basis: 30%;
-        font-size: 0.8em;
-        text-align: left;
-    }      
-      .sousElementDroit:nth-child(3){
-        text-align: left;
-    }   
-    .sousElementDroit:nth-child(4){
-        flex-basis: 100%;
-        padding-left: 37%;
-        margin-top: 2%;
-        margin-bottom: 4%;
-    }   
-    .sousElementDroit:nth-child(5){
-        flex-basis: 100%;
-        text-align: justify;
-        margin-bottom: 4%;
-    }    
-    
-    
-
 }
