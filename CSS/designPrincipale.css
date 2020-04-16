@@ -29,8 +29,10 @@
            margin: auto;
            text-align: center;
         }
-        #TitreNomMetierGauche h1{
+        #TitreNomMetierGauche h2{
            font-size: 4em;
+           background-color: #FACA33;
+           color: #404041;
         }
         #TitreNomMetierGauche h3{
           font-size: 2em;
