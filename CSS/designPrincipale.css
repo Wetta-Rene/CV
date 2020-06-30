@@ -127,7 +127,7 @@ h3{
     font-size: 1.4em;
 }
 .sousElementDroit img{
-width: 70%;    
+    width: 70%;    
 }
 .sousElementDroit:nth-child(1){
     flex-basis: 5%;
